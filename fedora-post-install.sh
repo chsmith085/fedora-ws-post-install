@@ -23,4 +23,8 @@ dnf install \
 	steam
 	flash-plugin
 	homebank
-	
+	unrar		# possibly remove due to 7-zip redundancy
+	libunrar	# plus 7zip is in fedora main. one less rpmfusion install.
+	p7zip
+	gnome-tweak-tool.noarch
+	mscore
